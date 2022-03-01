@@ -1,0 +1,42 @@
+body{
+    margin : 0px ; 
+    background-image: url(court2.png);
+    background-repeat: no-repeat;
+}
+#board1{
+    height: 200px ; 
+    width: 30px;
+    background-color: transparent ; 
+    position: absolute;
+    top: 200px ;
+    left: 20px;
+    border: 8px solid white;
+    background: tomato;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+#board2{
+    height: 200px ; 
+    width: 30px;
+    background-color: transparent ; 
+    position: absolute;
+    top: 200px ;
+    right: 20px;
+    border: 8px solid white;
+    background: tomato;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+#ball{
+    background: greenyellow;
+    height: 40px; 
+    width: 40px;
+    border-radius: 30px;
+    position: absolute;
+    top: calc(50vh - 20px); ; 
+    left:  calc(50vw - 20px);
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
